@@ -74,8 +74,7 @@ $ go get -u github.com/larksuite/oapi-sdk-go
     |--------------|--------------|------|------|
     |  Authentication    | v1  | [service/authen](service/authen) | [sample/api/authen.go](sample/api/authen.go)|
     |  Image     | v4  | [service/image](service/image)|[sample/api/image.go](sample/api/image.go)|
-    |  Calendar     | v4  | [service/calendar](service/calendar)|[sample/api/calendar.go](sample/api/calendar.go)|
-    |  contact   | v3  | [service/contact](service/contact) | [sample/api/contact.go](sample/api/contact.go) |
+    |  Contact   | v3  | [service/contact](service/contact) | [sample/api/contact.go](sample/api/contact.go) |
     
     
 - Instructions for use（For`No business API SDK is generated`the processing method）
@@ -133,8 +132,8 @@ $ go get -u github.com/larksuite/oapi-sdk-go
   
       | Business service | version  | path | sample |
       |--------------|--------------|------|------|
-      |  application    | v1  | [service/application](service/application) | [sample/event/application.go](sample/event/application.go) |
-      |  contact   | v3  | [service/contact](service/contact) | [sample/event/contact.go](sample/event/contact.go) |
+      |  Application    | v1  | [service/application](service/application) | [sample/event/application.go](sample/event/application.go) |
+      |  Contact   | v3  | [service/contact](service/contact) | [sample/event/contact.go](sample/event/contact.go) |
       
   - Instructions for use
     - Event monitoring service started
